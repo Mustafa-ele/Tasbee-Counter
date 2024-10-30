@@ -6,12 +6,17 @@ body {
 }
 
 .container {
-    background-color: #708ce9;
+    /* Other existing styles */
+    background-size: cover;
+    background-position: center;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
+    color: white;
+    margin-top: 20px; /* Adds space between the counters */
 }
+
 
 img{
     width: 90%;
