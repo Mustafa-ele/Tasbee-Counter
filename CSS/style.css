@@ -4,17 +4,20 @@ body {
     margin: 0;
     padding: 50px;
 }
+.main-container {
+    display: flex;
+    flex-direction: column; /* Stack counters vertically */
+    align-items: center; /* Center counters horizontally */
+}
 
 .container {
-    /* Other existing styles */
-    background-size: cover;
-    background-position: center;
+    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-    color: white;
-    margin-top: 20px; /* Adds space between the counters */
+    color: #333;
+    margin-top: 20px;
+    width: 300px; /* Set fixed width for uniform sizing */
 }
 
 
